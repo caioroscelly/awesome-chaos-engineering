@@ -99,6 +99,8 @@ A curated list of awesome [Chaos Engineering](http://principlesofchaos.org/) res
 * [Building resilient services at Prime Video with chaos engineering](https://aws.amazon.com/blogs/opensource/building-resilient-services-at-prime-video-with-chaos-engineering/)
 * [Making Chaos Part of Kubernetes/OpenShift Performance and Scalability Tests](https://www.openshift.com/blog/making-chaos-part-of-kubernetes/openshift-performance-and-scalability-tests)
 * [Lucky Lotto, chaos engineering but for teams](https://danlebrero.com/2021/06/30/cto-dairy-lucky-lotto-chaos-engineering-for-teams/)
+* [Using Fault Injection Testing to Improve DoorDash Reliability](https://doordash.engineering/2022/04/25/using-fault-injection-testing-to-improve-doordash-reliability/)
+* [Chaos Engineering At Ant Group](https://medium.com/@monkeysuzie/chaos-engineering-at-ant-group-30c15cb6ab69)
 
 ## Books
 * [Chaos Engineering: Building Confidence in System Behavior through Experiment](http://www.oreilly.com/webops-perf/free/chaos-engineering.csp)
@@ -110,6 +112,7 @@ A curated list of awesome [Chaos Engineering](http://principlesofchaos.org/) res
 * [Chaos Engineering: System Resilience in Practice](https://www.oreilly.com/library/view/chaos-engineering/9781492043850/)
 * [Chaos Engineering: Crash test your applications](https://www.manning.com/books/chaos-engineering)
 * [Security Chaos Engineering: Gaining Confidence in Resilience and Safety at Speed and Scale](https://www.oreilly.com/library/view/security-chaos-engineering/9781492080350/)
+* [Chaos Engineering Observability](https://www.humio.com/resources/reports/chaos-observability/)
 
 ## Education
 * A Chaos Engineering Bootcamp for O'Reilly Velocity 2017 - [Slides](https://speakerdeck.com/tammybutow/chaos-engineering-bootcamp) & [Source code](https://github.com/tammybutow/chaos_engineering_bootcamp)
@@ -135,6 +138,7 @@ A curated list of awesome [Chaos Engineering](http://principlesofchaos.org/) res
 * [Resilience Engineering: Short Course](http://csel.org.ohio-state.edu/ResilienceEngineering.html)
 * [The Chaos Engineering Collection](https://medium.com/@adhorn/the-chaos-engineering-collection-5e188d6a90e2)
 * [PenTester Academic](https://www.pentesteracademy.com/onlinelabs)
+* [Consul and Chaos Engineering](https://learn.hashicorp.com/tutorials/consul/introduction-chaos-engineering?in=consul/resiliency)
 
 ## Notable Tools
 * [Chaos Monkey](https://github.com/Netflix/chaosmonkey) - A resiliency tool that helps applications tolerate random instance failures.
@@ -188,7 +192,10 @@ A curated list of awesome [Chaos Engineering](http://principlesofchaos.org/) res
 * [Kraken](https://github.com/cloud-bulldozer/kraken) - Chaos and resiliency testing tool for Kubernetes and OpenShift.
 * [kube-burner](https://github.com/cloud-bulldozer/kube-burner) - A tool aimed at stressing Kubernetes clusters by creating or deleting a high quantity of objects.
 * [Chaos Experimentation Framework](https://github.com/lyft/clutch) - An extensible platform for infrastructure management including Chaos Engineering 
-
+* [NetHavoc](https://www.cavisson.com/nethavoc-resilience-testing-solution/) - A Chaos Engineering Tool for Linux, K8s, Windows, PCF, Cloud, and Containers for injecting Resource, Infrastructure, Network, and Application failures.
+* [gorm-sqlchaos](https://github.com/u2386/gorm-sqlchaos) - A runtime SQL manipulator for your Golang applications based on gorm.
+* [Chaos Frontend Toolkit](https://chaos-frontend-toolkit.web.app/) - A set of tools to apply Chaos Engineering to frontend
+* [Mitigant](https://mitigant.io/) - The Continuos Security Verification Platform, enables confidence in cloud security posture by leveraging security chaos engineering.
 
 ## Retired tools
 * [The Simian Army](https://github.com/Netflix/SimianArmy) - A suite of tools for keeping your cloud operating in top form.
@@ -196,7 +203,7 @@ A curated list of awesome [Chaos Engineering](http://principlesofchaos.org/) res
 
 ## Cloud Services
 * [Testing Amazon Aurora Using Fault Injection Queries](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Managing.html#AuroraMySQL.Managing.FaultInjectionQueries)
-* [Azure Fault Analysis Service](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-testability-overview), see also [Include controlled Chaos in Service Fabric clusters](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-controlled-chaos)
+* [Azure Chaos Studio](https://aka.ms/azurechaosstudio) - A managed fault injection service for Azure applications. See also [Azure Fault Analysis Service](https://docs.microsoft.com/azure/service-fabric/service-fabric-testability-overview) for Azure Service Fabric applications.
 * [Security Chaos Engineering for Cloud Services](https://medium.com/@run2obtain/from-resilience-to-dependability-security-chaos-engineering-for-cloud-services-9c6d6d152ed2)
 
 ## Papers
@@ -215,6 +222,9 @@ A curated list of awesome [Chaos Engineering](http://principlesofchaos.org/) res
 * [Security Chaos Engineering: A new paradigm for cybersecurity](https://opensource.com/article/18/1/new-paradigm-cybersecurity)
 * [Security Challenges around Chaos Engineering](https://www.conjur.org/blog/security-challenges-around-chaos-engineering/)
 * [CloudStrike: Security Chaos Engineering for Cloud Services](https://www.researchgate.net/publication/335922038_Security_Chaos_Engineering_for_Cloud_Services)
+* [Observability and Chaos Engineering on System Calls for Containerized Applications in Docker](https://arxiv.org/abs/1907.13039)
+* [Maximizing Error Injection Realism for Chaos Engineering with System Calls](https://arxiv.org/abs/2006.04444)
+* [Chaos Engineering of Ethereum Blockchain Clients](https://arxiv.org/abs/2111.00221)
 
 ## Gamedays
 * [Target: What is a Gameday?](https://tech.target.com/2019/05/09/chaos-engineering-at-Target.html) - Chaos Gamedays experience by Target.
@@ -249,6 +259,8 @@ A curated list of awesome [Chaos Engineering](http://principlesofchaos.org/) res
 * [ChaosEngineering.news](https://chaosengineering.news/) - Chaos Engineering newsletter. All things chaos engineering, directly to your inbox!
 * [Chaos Mesh Blog](https://chaos-mesh.org/blog) - Blogs on Chaos Engineering from Chaos Mesh.
 * [Chaos Experimentation Framework](https://eng.lyft.com/chaos-experimentation-an-open-source-framework-built-on-top-of-envoy-proxy-df87519ed681) Chaos Experimentation, an open-source framework built on top of Envoy Proxy
+* [Squadcast](https://squadcast.com/blog)- Blog on Site Reliability engineering.
+* [steadybit Blog](https://www.steadybit.com/blog) - Blogs on Chaos Engineering, Resilience, SRE and OPS from steadybit.
 
 ## Podcasts
 * [Break Things On Purpose](https://podcasts.apple.com/us/podcast/break-things-on-purpose/id1460542551) - Monthly podcast about Chaos Engineering presented by Gremlin Inc. Also available on Spotify, Google Play, and Stitcher.
